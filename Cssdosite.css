@@ -1,0 +1,251 @@
+body{
+background-image: url('imgs/Talvez o fundo do site.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .meuscolegas {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .sla {
+        margin-top: 20px;
+    }
+
+    #perfil {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.Colegas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Colegas img {
+    width: 100%;
+    max-width: 300px;
+    border: 10px solid gray;
+}
+
+.Colegas li {
+    padding: 20px;
+    flex: 1 0 300px;
+}
+
+figcaption {
+    color: white;
+    border: 10px solid gray;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagemdeperfil img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.meuscolegas {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.repertorio {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 120px;
+    text-align: center;
+    justify-content: center;
+}
+
+.repertorio img {
+    max-width: 100%;
+    height: auto;
+}
+
+.repertorio a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.text-center {
+    color: red;
+}
+
+h3 {
+    color: yellow;
+}
+
+#perfil {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#perfil img {
+    margin: 0;
+    max-width: 100%;
+}
+
+#links {
+    margin-top: 20px;
+}
+
+h2 {
+    color: yellow;
+}
+
+#textodoperfil {
+    color: white;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    #textodoperfil {
+        font-size: 14px; 
+        line-height: 1.4; 
+        margin-bottom: 15px; 
+    }
+}
+
+.sla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-3:not(:last-child) {
+    margin-right: 10px;
+}
+
+.card {
+    width: 18rem;
+    margin: 30px;
+}
+
+.colega1 {
+    margin-top: -8px;
+}
+
+.colega2 {
+    margin-top: 9px;
+}
+
+.colega3 {
+    margin-top: 60px;
+}
+
+/* Alinhar e estilizar o figcaption */
+figcaption {
+    color: white;
+    border: 10px solid gray;
+    background-color: gray;
+    padding: 10px;
+    text-align: left; 
+    max-width: 300px; 
+    margin: auto; 
+    overflow: hidden; 
+}
+
+/*ICONES*/
+.instagram-icon {
+    font-size: 2rem; /* Aumenta o tamanho dos ícones */
+    color: #E1306C; /* Cor do ícone do Instagram */
+    margin-right: 10px; /* Espaço entre os ícones */
+}
+
+.spotify-icon {
+    font-size: 2rem; /* Aumenta o tamanho dos ícones */
+    color: #1DB954; /* Cor do ícone do Spotify */
+    margin-right: 10px; /* Espaço entre os ícones */
+}
+
+.envelope-icon {
+    font-size: 2rem; /* Aumenta o tamanho dos ícones */
+    color: white; /* Cor do ícone do Spotify */
+    margin-right: 1px; /* Espaço entre os ícones */
+}
+
+.instagram-icon:hover, .spotify-icon:hover, .envelope-icon:hover {
+    color: #000; /* Cor ao passar o mouse sobre o ícone */
+}
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro e oficial site</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Cssdosite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1>Seja bem vindo!</h1>
+            <!-- Menu de seções -->
+            <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#secao1">Home</a></li>
+                    <li class="list-inline-item"><a href="Pagina2.html">Repositórios</a></li>
+                    <li class="list-inline-item"><a href="Pagina3.html">Contatos</a></li>
+                    <li class="list-inline-item"><a href="#secao4">Colegas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" id="perfil">
+        <div class="imagemdeperfil">
+            <h2>𝓟𝓮𝓻𝓯𝓲𝓵:</h2>
+            <img src="imgs/Eu.jpeg" alt="Avatar" class="Foto_de_perfil" style="max-width: 300px; height: auto;">
+        </div>
+        <div>
+            <div id="textodoperfil">
+                <h4>Otávio Augusto Martins de Souza</h4>
+                <p>Sou um jovem de 18 anos que está aprendendo HTML e CSS, no qual você deu a sorte de poder estar aqui acessando o meu primeiro site definitivo, digo isso pois os outros eram de treino, mas esse é o primeiro entre vários que estão para surgir.<br>
+                    Sou calouro<br>
+                    Gosto bastante de música de preferência do gênero Metal no qual sou apaixonado, minha banda favorita se chama Slipknot, eles são americanos do gênero Nu-Metal, que seria um gênero dentro do gênero(podendo ser chamado de subgênero).<br>
+                    Toco guitarra e violão.<br>
+                </p>
+            </div>
+            <a href="https://www.instagram.com/otavio_amds_/" target="_blank">
+                <i class="fab fa-instagram instagram-icon"></i>
+            </a>
+            <a href="https://open.spotify.com/user/otamat1?si=0373601833344435" target="_blank">
+                <i class="fab fa-spotify spotify-icon"></i>
+            </a>
+            <a href="mailto:oamsouza@sga.pucminas.br" class="btn btn-primary" target="_blank">
+                <i class="fa-solid fa-envelope envelope-icon"></i>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Repositorio -->
+    <div class="sla" style="padding-top: 200px;">
+        <div class="row">
+            <div class="col-md-3 pb-2">
+                <h2>Repositórios:</h2>
+                <div class="card">
+                    <img src="imgs/GitHub.png" class="card-img-top w-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu Repositorio do GitHub</h5>
+                        <p class="card-text">Esse é o meu repositorio do GitHub</p>
+                        <a href="https://github.com/OTAVIO019?tab=repositories" class="btn btn-primary">Vá para o GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding-top: 22px;">
+                <div class="card">
+                    <img src="imgs/Codigos.jpg" class="card-img-top w-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Codigos</h5>
+                        <p class="card-text">Nele se encontra os codigos e detalhes sobre eles.</p>
+                        <a href="Pagina2.html" class="btn btn-primary">Vá para o Repositório</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" style="padding-top: 60px;">
+                <div class="card">
+                    <img src="imgs/Visual Coding.gif" class="card-img-top w-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Visual Coding</h5>
+                        <p class="card-text">Ele monta os codigos normalmente, mas o diferencia e que você usa blocos de comandos e os conecta.</p>
+                        <a href="Pagina2.html" class="btn btn-primary">Vá para o Repositório</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Carrossel -->
+    <div class="container mt-5" style="padding-top: 200px;">
+        <h2>Carrossel:</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://github.com/" target="_blank">
+                    <img src="imgs/GitHub.png" class="d-block w-100" alt="Imagem 1">
+                   </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.nucleodoconhecimento.com.br/ciencia-da-computacao" target="_blank">
+                    <img src="imgs/Do artigo sobre ciencia da computação.webp" class="d-block w-100" alt="Imagem 2">
+                </a>
+                </div>
+                <div class="carousel-item">
+                   <a href="https://www.youtube.com/watch?v=enTYYAZ9n98" target="_blank">
+                    <img src="imgs/DIW.jpg" class="d-block w-75" alt="Imagem 3">
+                  </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.youtube.com/watch?v=lp0d9y9L5vU&t=33s" target="_blank">
+                        <img src="imgs/Para o site.png" class="d-block w-100" alt="Imagem 4">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.udemy.com/" target="_blank">
+                        <img src="imgs/Udemy.png" class="d-block w-100" alt="Imagem 5">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://replit.com/~" target="_blank">
+                        <img src="imgs/Replit.webp" class="d-block w-100" alt="Imagem 6">
+                    </a>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- Colegas -->
+    <div> 
+        <div class="meuscolegas">
+            <h3>Meus colegas: </h3>
+        </div>  
+        <ul class="Colegas">
+            <div class="colega1">
+                <li>
+                    <img src="imgs/Abbath.jpeg" alt="">
+                    <figcaption>
+                        Nome: Abbath. <br>
+                        Sobre: Nos formamos junto no ensino medio, ele está seguindo a carreira na area de Engenharia de Software, mas seu talento está na musica ele faz parte da banda Abbath uma das melhores e mais profissionais bandas do mundo.
+                    </figcaption>
+                </li>
+            </div>
+            <div class="colega2">
+                <li>
+                    <img src="imgs/gabriela.jpg" alt="">
+                    <figcaption>
+                        Nome: Gabriel <br>
+                        Conta: https://github.com/fckyZ <br>
+                        Sobre: 
+                    </figcaption>
+                </li>
+            </div>
+            <div class="colega3">
+                <li>
+                    <img src="imgs/James Root.jpeg" alt="">
+                    <figcaption>
+                        Nome: James Root. <br>
+                        Sobre: O melhor dos melhores, ele não trabalha com programação, mas isso pouco importa. Ele é um dos melhores guitarristas desse mundo, e faz parte da minha banda favorita o Slipknot.
+                    </figcaption>
+                </li>
+            </div>
+        </ul>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white p-3">
+        <div class="container">
+            <p>Desenvolvido por Otávio Augusto</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS, Popper.js e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
